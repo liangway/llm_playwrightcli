@@ -1,0 +1,22 @@
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+/playwright/.auth/
+
+# Runtime generated files
+.playwright-cli/
+llm.log
+
+# Claude
+.claude/
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Test artifacts
+tests/screenshots/*.png
